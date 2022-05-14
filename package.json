@@ -1,6 +1,6 @@
 {
   "name": "dethz",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "description": "A personal card for Suphakit P. (@dethMastery)",
   "main": "card.js",
   "bin": {
