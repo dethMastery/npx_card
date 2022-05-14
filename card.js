@@ -64,13 +64,13 @@ const questions = [
 ];
 
 const data = {
-    name: chalk.bold.green("                Suphakit Pinyoworapot"),
+    name: chalk.bold.green("            Suphakit Pinyoworapot"),
     handle: chalk.white("@anmol098"),
     work: `${chalk.white("Founder & Artist @")} ${chalk
         .hex("#FF7F50")
         .bold("JentaJuice")}`,
-    twitter: chalk.gray("https://twitter.com/") + chalk.cyan("JojiDetzz"),
-    github: chalk.gray("https://github.com/") + chalk.green("dethMastery"),
+    twitter: chalk.white("https://twitter.com/") + chalk.cyan("JojiDetzz"),
+    github: chalk.white("https://github.com/") + chalk.green("dethMastery"),
     web: chalk.cyan("https://suphakit.net"),
     npx: chalk.red("npx") + " " + chalk.white("dethz"),
 
@@ -94,13 +94,16 @@ const me = boxen(
         `${data.labelCard}  ${data.npx}`,
         ``,
         `${chalk.italic(
-            "Hello, world."
+            "Hello, world. I'm Suphakit P."
         )}`,
         `${chalk.italic(
-            "I'm Suphakit P. I'm a Front-End Developer (with a little of Back-End Skill)"
+            "I'm a Front-End Developer (with a little of"
         )}`,
         `${chalk.italic(
-            "& Music Composer. If you want to work with me just feel free to contact me ;)"
+            "Back-End Skill) & Music Composer. If you want"
+        )}`,
+        `${chalk.italic(
+            "to work with me just feel free to contact me ;)"
         )}`
     ].join("\n"),
     {

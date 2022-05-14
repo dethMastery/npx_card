@@ -1,6 +1,6 @@
 {
   "name": "dethz",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "A personal card for Suphakit P. (@dethMastery)",
   "main": "card.js",
   "bin": {
@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "node card.js",
-    "pub": "npm version major & npm publish"
+    "push": "npm version major & npm publish"
   },
   "dependencies": {
     "boxen": "^4.2.0",
